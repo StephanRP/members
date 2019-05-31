@@ -3,7 +3,7 @@ package Members
 import "sort"
 
 type Member struct {
-	Id		int		 `json:"id,omitempty"`
+	Id	int	 `json:"id,omitempty"`
 	Name 	string 	 `json:"name,omitempty"`
 	Lob 	string 	 `json:"lob,omitempty"`
 	Pcp 	string 	 `json:"pcp,omitempty"`
